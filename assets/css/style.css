@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+body {
+    background-image: url(../imag/1614391535_4-p-temnii-igrovoi-fon-5.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav,
+.search,
+.dropdown-menu {
+    background-color: #494949;
+    border: 0;
+}
+
+.icon-carousel {
+    font-size: 2.5rem;
+    color: #494949;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 80%;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.all,
+optgroup>option {
+    font-size: 0.9em;
+}
+
+.btn {
+    background-color: #5c0048;
+}
+
+.btn-black {
+    background-color: #383838;
+}
+
+.pink {
+    color: #494949;
+}
+
+.buttons-hotads {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-pink {
+    border-bottom: 1px solid #494949;
+}
+
+.navigation-link {
+    list-style: none;
+}
+
+.pink-hover {
+    color: #383838;
+    text-decoration: none;
+}
+
+.pink-hover:hover {
+    color: #494949;
+}
+
+.search-box {
+    outline: none;
+}
+
+.search-box button {
+    font-size: 0.9em;
+}
+
+.search-placeholders::placeholder {
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.search-result {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.search-pink-bgc {
+    background-color: #494949;
+}
+
+input[type=checkbox] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.footer-links-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-inner {
+    text-align: center;
+}
+
+.about-inner h1 {
+    font-size: 36px;
+}
+
+.about-empire img {
+    max-width: 700px;
+    margin-bottom: 5%;
+}
+
+.about-text {
+    padding-top: 21.5px;
+}
+
+.about-empire h2 {
+    font-size: 23px;
+}
+
+.about-rebels h2 {
+    font-size: 23px;
+}
+
+.about-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 55px 0 35px;
+}
+
+.about-inner button {
+    padding: 17px 28px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 111.4px;
+    outline: none;
+}
+
+.about-inner button:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 254, 254);
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+     :root {
+        font-size: 18px;
+    }
+    .carousel-item>.card {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+     :root {
+        font-size: 24px;
+    }
+    .carousel-item>.card {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+}
+
+@media (max-width:700px) {
+    .about-inner h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about-inner p {
+        font-size: 14px;
+    }
+    .about-empire {
+        display: block;
+        width: 100%;
+    }
+}
